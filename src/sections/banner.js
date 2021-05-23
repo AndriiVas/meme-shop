@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
-import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
+import BannerImg from 'assets/memes/1.jpg';
+import ShapeLeft from 'assets/memes/left.gif';
+import ShapeRight from 'assets/memes/right.gif';
 
 export default function Banner() {
   return (
@@ -11,16 +11,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as='h1' variant='heroPrimary'>
-            Top Quality Digital Products to Explore
+            Top Quality Memes to make your day!
           </Heading>
           <Text as='p' variant='heroSecondary'>
-            Check out our website to find great software products and deals! IF you need a website or web application - this is a place to go!
+            Check out our website to find great memes! If you want to be happy and have a quick laugh - this is a place to go!
           </Text>
           <Button variant="primary">
           Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt='banner'/>
+          <Image src={BannerImg} css={{borderRadius:'30%'}}  alt='banner'/>
         </Box>
       </Container>
     </section>

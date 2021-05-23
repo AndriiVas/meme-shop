@@ -6,15 +6,15 @@ import TextFeature from 'components/text-feature';
 import ModalVideo from 'react-modal-video';
 import { IoIosPlay, IoMdHeartEmpty } from 'react-icons/io';
 
-import ServiceThumb from 'assets/service-thumb.png';
-import shapePattern from 'assets/shape-pattern1.png';
+import ServiceThumb from 'assets/css.gif';
+import shapePattern from 'assets/shapes.png';
 
-import Smart from 'assets/services/smart.svg';
-import Secure from 'assets/services/secure.svg';
+import Smart from 'assets/services/1.png';
+import Secure from 'assets/services/2.png';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'CAPS LOCK – Preventing Login Since 1980',
+  title: 'A programmer is going out shopping and his wife says "While you are out, get eggs". He never returned ',
   features: [
     {
       id: 1,
@@ -22,7 +22,7 @@ const data = {
       altText: 'Smart Features',
       title: 'Smart Features',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Cats spend two thirds of their lives sleeping, and the other third making viral videos',
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const data = {
       altText: 'Secure Contents',
       title: 'Secure Contents',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Q: What do computers eat for a snack?  A: Microchips!',
     },
   ],
 };
@@ -74,7 +74,7 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo channel='youtube' isOpen={videoOpen} videoId='bnda1-ezRgQ' onClose={()=>setVideoOpen(false)} />
+      <ModalVideo channel='youtube' isOpen={videoOpen} videoId='yJmjULnj47A' onClose={()=>setVideoOpen(false)} />
     </section>
   );
 }

@@ -3,10 +3,10 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Performance from 'assets/key-feature/performance.svg';
-import Partnership from 'assets/key-feature/partnership.svg';
-import Subscription from 'assets/key-feature/subscription.svg';
-import Support from 'assets/key-feature/support.svg';
+import Performance from 'assets/key-feature/1.png';
+import Partnership from 'assets/key-feature/2.png';
+import Subscription from 'assets/key-feature/3.png';
+import Support from 'assets/key-feature/4.png';
 
 const data = [
   {
@@ -15,7 +15,7 @@ const data = [
     altText: 'Fast Performance',
     title: 'Fast Performance',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Get your memes delivered at home, great family gags guaranteed!',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const data = [
     altText: 'Partnership deal',
     title: 'Partnership deal',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'A SEO expert walks into a bar, bars, pub, tavern, public house, Irish pub, drinks, beer, alcohol',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     altText: 'Pro Subscription',
     title: 'Pro Subscription',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Client to designer: “It doesn’t really look purple. It looks more like a mixture of red and blue.”',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      '99 little bugs in the code, 99 little bugs in the code. Take one down, patch it around 117 little bugs in the code.',
   },
 ];
 
@@ -48,8 +48,8 @@ export default function KeyFeature() {
    <section id="feature" sx={{variant: 'section.keyFeature'}} >
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Meet the feature of our product"
+          slogan="What is this all about?"
+          title="Meet the memes from our shop"
         />
         <Grid sx={styles.grid}>
           {data.map((item)=>(

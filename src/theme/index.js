@@ -9,7 +9,7 @@ export default {
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E5ECF4', // border color
     yellow: '#FFA740', // border color
-    primary: '#EA3A60', // primary button and link color
+    primary: 'hsla(207, 100%, 60%, 1)', // primary button and link color
     secondary: '#2563FF', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
@@ -357,6 +357,7 @@ export default {
   styles: {
     // To add base, top-level styles to the <body> element, use theme.styles.root.
     root: {
+      backgroundImage: 'linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)',
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',

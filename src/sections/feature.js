@@ -3,10 +3,10 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
-import Performance from 'assets/feature/performance.svg';
-import Partnership from 'assets/feature/partnership.svg';
-import Subscription from 'assets/feature/subscription.svg';
-import Support from 'assets/feature/support.svg';
+import Performance from 'assets/feature/1.png';
+import Partnership from 'assets/feature/2.png';
+import Subscription from 'assets/feature/3.png';
+import Support from 'assets/feature/4.png';
 
 const data = [
   {
@@ -15,7 +15,7 @@ const data = [
     altText: 'Fast Performance',
     title: 'Fast Performance',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Q: Why did the web designer drown? A: He didn’t know if he should float:left or float:right.',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const data = [
     altText: 'Pro Subscription',
     title: 'Pro Subscription',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Q: Why was the web developer fired from his job? A: He was getting too Sassy.',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     altText: 'Partnership deal',
     title: 'Partnership deal',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Why you shouldn\'t trust JavaScript programmers? Because they make lots of promises but they never callback.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Hardware - the part of a computer that you can kick!',
   },
 ];
 
