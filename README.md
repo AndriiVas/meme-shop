@@ -1,11 +1,6 @@
-## Getting Started
+Deployed to https://nervous-heisenberg-e0e362.netlify.app/
 
-Install the dependencies and run the development server
+Meme landing page. Created with Next.js, Theme UI. Mobile friendly too.
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
+![image](https://user-images.githubusercontent.com/67357052/120863247-7454da80-c547-11eb-8967-c6ece3cb79e3.png)
+![image](https://user-images.githubusercontent.com/67357052/120863271-7dde4280-c547-11eb-9fb3-2f4046a8306c.png)
