@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+    "start": "next start -p $PORT",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
