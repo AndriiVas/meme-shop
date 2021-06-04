@@ -5,12 +5,12 @@ import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
+import Member1 from 'assets/team/ai-1.png';
+import Member2 from 'assets/team/ai-2.png';
+import Member3 from 'assets/team/ai-3.png';
+import Member4 from 'assets/team/ai-4.png';
+import Member5 from 'assets/team/ai-5.png';
+import Member6 from 'assets/team/ai-6.png';
 
 const data = [
   {
@@ -181,7 +181,7 @@ export default function TeamSection() {
   return (
     <section>
       <Container>
-        <SectionHeader slogan="Our Team" title="Most qualified and talented individuals"/>
+        <SectionHeader slogan="Our Team" title="Most qualified and talented individuals, btw this are all AI generated"/>
         <Grid sx={styles.grid}>
           {data.map((item)=>(
             <TeamCard key={item.id} src={item.imgSrc} alt={item.altText} title={item.title} designation={item.designation} social={item.socialProfile} />

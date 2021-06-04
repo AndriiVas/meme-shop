@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'So you buy crypto because it\'s growing right?',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Nothing contained in this website should be construed as investment advice.  Any reference to an investment’s past or potential performance is not, and should not be construed as, a recommendation or as a guarantee of any specific outcome or profit.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'It falls right after you buy, you\'re still positive',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Nothing contained in this website should be construed as investment advice.  Any reference to an investment’s past or potential performance is not, and should not be construed as, a recommendation or as a guarantee of any specific outcome or profit.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Elon tweets, hosts SNL..',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Nothing contained in this website should be construed as investment advice.  Any reference to an investment’s past or potential performance is not, and should not be construed as, a recommendation or as a guarantee of any specific outcome or profit.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: '-30%..So now you don\'t want to sell, you\' are a long-term investor',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Nothing contained in this website should be construed as investment advice.  Any reference to an investment’s past or potential performance is not, and should not be construed as, a recommendation or as a guarantee of any specific outcome or profit.',
   },
 ];
 
@@ -38,7 +38,7 @@ export default function WorkFlow() {
   return (
     <section sx={styles.workflow}>
       <Container >
-        <SectionHeader slogan="Whats the function" title="Meet the feature of our product" isWhite={true} >
+        <SectionHeader slogan="Whats the function" title="It's arrow function...duh" isWhite={true} >
 
         </SectionHeader>
         <Grid sx={styles.grid}>
