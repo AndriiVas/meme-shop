@@ -1,4 +1,4 @@
-Deployed to https://nervous-heisenberg-e0e362.netlify.app/
+Deployed to https://memeshop.netlify.app/
 
 Meme landing page. Created with Next.js, Theme UI. Mobile friendly too.
 
